@@ -274,7 +274,6 @@ $definebone "tag_trigger_attach" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_irons_attach" "j_slide" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_slidelock" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_grip_safety" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "tag_tip" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_pistolgrip_attach" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_holo" "tag_sling" -8.897221 0.000174 -2.370372 -0.000002 0 -0.000002 0 0 0 0 0 0
 $definebone "tag_hybrid" "tag_sling" 4.598611 -0.000246 3.267151 0 0 -0.000001 0 0 0 0 0 0
@@ -505,7 +504,6 @@ $bonemerge "tag_trigger_attach"
 $bonemerge "tag_irons_attach"
 $bonemerge "j_slidelock"
 $bonemerge "j_grip_safety"
-$bonemerge "tag_tip"
 $bonemerge "tag_pistolgrip_attach" 
 $bonemerge "tag_holo"
 $bonemerge "tag_hybrid"
