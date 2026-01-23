@@ -1820,6 +1820,71 @@ $sequence "melee_hit_01" {
 	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 39 39 target 1 usesource 
 }
 
+//bayonet
+
+$sequence "melee_miss_01_bayonet" {
+	"anims\s4_vm_ar_stango44_m7_bayonet_miss.smd"
+	{ event 9011 0 "0" }
+	{ event 9021 0 "0" }
+	{ event 5004 0 "s4_melee_attack_rifle_miss" }
+	{ event 5004 7 "Viewmodel.Large" }
+	{ event 5004 8 "Viewmodel.Medium" }
+	{ event 9021 26 "24" }
+	{ event 9011 26 "24" }
+	{ event 5004 31 "Viewmodel.Small" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "firemode_offset"
+	addlayer "grip_ang_offset"
+	addlayer "grip_vert_offset"
+	addlayer "grip_fix_offset"
+	addlayer "empty_offset"
+	addlayer "grip_barshort_offset"
+	addlayer "grip_stop_offset"
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 39 39 target 0 usesequence 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 39 39 target 1 usesequence 
+}
+
+$sequence "melee_hit_01_bayonet" {
+	"anims\s4_vm_ar_stango44_m7_bayonet_hit.smd"
+	{ event 9011 0 "0" }
+	{ event 9021 0 "0" }
+	{ event 5004 7 "Viewmodel.Large" }
+	{ event 5004 0 "s4_melee_attack_rifle_miss" }
+	{ event 5004 2 "MW_Melee.World_Knife" }
+	{ event 5004 8 "Viewmodel.Medium" }
+	{ event 9021 26 "1" }
+	{ event 9011 26 "1" }
+	{ event 5004 31 "Viewmodel.Small" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "firemode_offset"
+	addlayer "grip_ang_offset"
+	addlayer "grip_vert_offset"
+	addlayer "grip_fix_offset"
+	addlayer "empty_offset"
+	addlayer "grip_barshort_offset"
+	addlayer "grip_stop_offset"
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 39 39 target 0 usesequence 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 39 39 target 1 usesequence 
+}
+
+//fin
+
 $sequence "ads_in" {
 	"anims\s4_vm_ar_stango44_base_ads_up.smd"
 	{ event 5004 3 "wpn_stango44_plr_aim_mvmnt_up" }
