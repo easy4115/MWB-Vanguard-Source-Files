@@ -1300,6 +1300,7 @@ $sequence "reload_empty_extmag" {
 	blendwidth 2
 	{ event 9021 0 "0" }
 	{ event 9011 1 "0" }
+	{ event 5004 6 "wpn_stango44_plr_reload_magout_empty_ext_01" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Medium" }
 	{ event 5004 44 "wpn_stango44_plr_reload_magin_empty_ext_01" }
@@ -1311,9 +1312,10 @@ $sequence "reload_empty_extmag" {
 	{ event 5004 79 "Viewmodel.Small" }
 	{ event 5004 80 "Viewmodel.Medium" }
 	{ event 5004 86 "Viewmodel.Large" }
+	{ event 5004 98 "Viewmodel.Small" }
+	{ event 5004 110 "Viewmodel.Small" }
 	{ event 9011 92 "1" }
 	{ event 9021 93 "1" }
-	{ event 5004 110 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"

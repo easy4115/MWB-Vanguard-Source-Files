@@ -1,0 +1,70 @@
+// Created by Crowbar 0.72
+
+$scale 0.393703
+
+$modelname "easy/s4/attachments/chotel41/vm_chotel41_barrel_00.mdl"
+
+$bodygroup "barrel"
+{
+	studio "vm_chotel41_barrel_00_LOD0.smd"
+}
+$bodygroup "tag_sight"
+{
+	studio "sight.smd"
+	blank
+	blank
+}
+$bodygroup "tag_tip"
+{
+	studio "tip.smd"
+	blank
+	blank
+}
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$mostlyopaque
+
+$cdmaterials "easy\vg\weapons\chotel41\"
+$cdmaterials "easy\vg\attachments\"
+
+$attachment "muzzle" "tag_flash_attachment" 0 0 0 rotate 0 0 0
+$attachment "silencer" "tag_silencer" 0 0 0 rotate 0 0 0
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 -0.838 -1.888 10.685 1.28 2.785
+
+$definebone "tag_barrel_attach" "" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_bayonet_attach" "tag_barrel_attach" 24.291138 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_bipod_attach" "tag_barrel_attach" 11.187063 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_silencer" "tag_barrel_attach" 24.291138 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_taclight" "tag_barrel_attach" 7.423042 1.079006 -0.827005 -0.000000 0.000000 44.996155 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_tip" "tag_barrel_attach" 24.291138 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_flash_attachment" "tag_tip" 1.080006 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_sight_on2" "tag_barrel_attach" 19.593111 0.000000 1.184007 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+
+$bonemerge "tag_taclight"
+$bonemerge "tag_bayonet_attach"
+$bonemerge "tag_bipod_attach"
+
+$sequence "reference" {
+	"vm_chotel41_barrel_00_LOD0.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$keyvalues
+{
+// CSGO compiler adds the qc_path keyvalue section automatically.
+//	qc_path 
+//	{
+//		"value" "c:\github\source files mw\source-files-mw\attachments\smgs\mpapa5\attachment_barrel.qc"
+//	}
+}

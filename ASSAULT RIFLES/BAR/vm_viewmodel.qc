@@ -23,7 +23,7 @@ $cdmaterials "easy\vg\attachments\"
 
 $attachment "muzzle" "tag_flash" 0 0 0 rotate 0 0 0
 $attachment "flashlight" "tag_flash" 1 0 -1.5 rotate 0 0 0
-$attachment "shell_eject" "tag_brass" 0 0 0 rotate 0 0 0
+$attachment "shell_eject" "tag_brass" 0 0 0 rotate -0 0 0
 $attachment "camera" "tag_playerhelmet" 0 0 0 rotate 0 0 0
 $attachment "reflex" "tag_reflex" 0 0 0 rotate 0 0 0
 $attachment "holo" "tag_holo" 0 0 0 rotate 0 0 0
@@ -167,7 +167,7 @@ $definebone "tag_grip_show" "tag_barrel_attach" 3.945 0.221 -0.692 0 0 0 0 0 0 0
 $definebone "tag_ik_loc_le" "tag_barrel_attach" 1.648 1.588 -2.516 -1.163906 -30.792183 -140.790566 0 0 0 0 0 0
 $definebone "tag_flash" "tag_barrel_attach" 9.642001 0.221 -0.009 0 0 0 0 0 0 0 0 0
 $definebone "tag_barrel_hide" "tag_sling" 8.298001 -0.221 1.074 0 0 0 0 0 0 0 0 0
-$definebone "tag_brass" "tag_sling" 6.78 -0.265 1.914 0 -89.999982 0 0 0 0 0 0 0
+$definebone "tag_brass" "tag_sling" 6.78 -0.265 1.914 0 -89.999982 0 0 2 0 0 0 0
 $definebone "tag_holo" "tag_sling" 4.227 0 2.989 0 0 0 0 0 0 0 0 0
 $definebone "tag_ik_loc_ri" "tag_sling" -1.045999 -0.567 -3.172 8.754337 -15.591099 -114.717043 0 0 0 0 0 0
 $definebone "tag_laser_show3" "tag_sling" 8.534 -0.638 2.524 0 0 0 0 0 0 0 0 0
