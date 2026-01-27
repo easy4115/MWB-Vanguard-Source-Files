@@ -51,7 +51,7 @@ $bbox -2.375 -3.346 -4.136 1.163 5.642 15.601
 $definebone "ValveBiped.Bip01_R_Hand" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Anim_Attachment_RH" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_sling" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_gun" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "j_gun" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_charginghandle" "tag_sling" -10.637060 0.000000 0.300002 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_acog_2" "tag_sling" -16.567093 0.770004 -0.312002 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_barrel_attach" "tag_sling" -9.946056 0.000000 0.252001 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000

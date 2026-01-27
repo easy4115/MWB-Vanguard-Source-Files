@@ -1009,8 +1009,7 @@ $sequence "idle" {
 
 $sequence "holster" {
 	"anims\s4_vm_ar_voscar_base_putaway.smd"
-	{ event 5004 2 "wfoly_plr_ar_bromeopg_drop_01" }
-	{ event 5004 4 "wfoly_plr_ar_bromeopg_drop_02" }
+	{ event 5004 2 "wfoly_plr_ar_voscar_drop_01" }
 	{ event 5004 14 "Viewmodel.Medium" }
 	fadein 0.2
 	fadeout 0.2
@@ -1037,7 +1036,7 @@ $sequence "holster" {
 $sequence "draw" {
 	"anims\s4_vm_ar_voscar_base_pullout.smd"
 	{ event 9011 0 "0" }
-	{ event 5004 2 "wfoly_plr_sn_kilo98_raise_01" }
+	{ event 5004 2 "wfoly_plr_ar_voscar_raise_01" }
 	{ event 9011 7 "1" }
 	{ event 5004 20 "Viewmodel.Small" }
 	fadein 0.2

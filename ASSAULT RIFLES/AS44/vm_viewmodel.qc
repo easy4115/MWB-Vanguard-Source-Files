@@ -1025,7 +1025,6 @@ $sequence "holster" {
 	{ event 9011 0 "0" }
 	{ event 9021 0 "0" }
 	{ event 5004 2 "wfoly_plr_ar_asierra44_drop_01" }
-	{ event 5004 4 "wfoly_plr_ar_asierra44_drop_02" }
 	{ event 5004 18 "Viewmodel.Medium" }
 	fadein 0.2
 	fadeout 0.2

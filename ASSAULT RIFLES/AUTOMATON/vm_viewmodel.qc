@@ -1036,7 +1036,6 @@ $sequence "idle" {
 $sequence "holster" {
 	"anims\s4_vm_ar_fecho_base_putaway.smd"
 	{ event 5004 2 "wfoly_plr_ar_fecho_drop_01" }
-	{ event 5004 4 "wfoly_plr_ar_fecho_drop_02" }
 	{ event 5004 13 "Viewmodel.Medium" }
 	fadein 0.2
 	fadeout 0.2

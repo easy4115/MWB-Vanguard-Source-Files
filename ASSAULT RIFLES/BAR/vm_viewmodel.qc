@@ -1016,7 +1016,6 @@ $sequence "idle" {
 $sequence "holster" {
 	"anims\s4_vm_ar_balpha_base_putaway.smd"
 	{ event 5004 2 "wfoly_plr_ar_balpha_drop_01" }
-	{ event 5004 4 "wfoly_plr_ar_balpha_drop_02" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"

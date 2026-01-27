@@ -39,7 +39,7 @@ $bbox -2.375 -3.346 -4.136 1.163 5.642 15.601
 $definebone "ValveBiped.Bip01_R_Hand" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Anim_Attachment_RH" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_sling" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_gun" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "j_gun" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_thermal" "tag_sling" -16.904095 -0.565003 1.110006 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_stock_attach" "tag_sling" -19.809111 0.000000 -0.406002 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_sight_on" "tag_sling" -16.045090 0.000000 1.142007 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000

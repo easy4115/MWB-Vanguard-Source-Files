@@ -45,7 +45,7 @@ $bbox -2.375 -3.346 -4.136 1.163 5.642 15.601
 $definebone "ValveBiped.Bip01_R_Hand" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "ValveBiped.Anim_Attachment_RH" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "tag_sling" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
-$definebone "j_gun" "ValveBiped.Bip01_R_Hand" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "j_gun" "tag_sling" 0 0 0 0 0 0 0 0 0 0 0 0
 $definebone "j_bolt" "tag_sling" 7.992045 0.000000 0.935005 -0.000000 0.000000 -15.346045 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_charginghandle" "tag_sling" 8.092046 0.000000 0.935005 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_firesel" "tag_sling" 5.484031 0.533003 -0.520003 89.994774 89.981758 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
@@ -69,8 +69,7 @@ $definebone "tag_sight_on" "tag_sling" 9.990056 0.000000 1.785010 -0.000000 0.00
 $definebone "tag_stock_attach" "tag_sling" -0.295002 0.000000 -1.551009 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_optic_mount" "tag_sling" 12.307070 0.000000 1.738010 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_magrel" "tag_sling" 5.986034 0.595003 -1.025006 89.994774 90.004562 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_tip" "tag_barrel_attach" 24.291138 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
-$definebone "tag_flash" "tag_tip" 1.080006 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "tag_flash" "tag_barrel_attach" 25.291138 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 
 $bonemerge "ValveBiped.Bip01_R_Hand"
 $bonemerge "tag_sling"
@@ -98,8 +97,6 @@ $bonemerge "tag_sight_on"
 $bonemerge "tag_stock_attach"
 $bonemerge "tag_optic_mount"
 $bonemerge "j_magrel"
-$bonemerge "tag_tip"
-$bonemerge "tag_flash" 
 
 $sequence "reference" {
 	"vm_chotel41_receiver_00_LOD0.smd"

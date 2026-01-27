@@ -1011,7 +1011,6 @@ $sequence "holster" {
 	"anims\s4_vm_ar_bromeo35_base_putaway.smd"
 	{ event 9021 0 "1" }
 	{ event 5004 2 "wfoly_plr_ar_bromeopg_drop_01" }
-	{ event 5004 4 "wfoly_plr_ar_bromeopg_drop_02" }
 	{ event 5004 13 "Viewmodel.Medium" }
 	{ event 9021 2 "0" }
 	fadein 0.2
