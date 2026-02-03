@@ -1470,7 +1470,7 @@ $sequence "reload_cmag" {
 $sequence "draw_first_stop" {
 	"anims\s4_vm_ar_chotel41_gripstop_pullout_first.smd"
 	{ event 5004 3 "wpn_chotel41_plr_reload_fpo" }
-	{ event 9011 0 "0" }
+	{ event 9011 13 "0" }
 	{ event 5004 21 "Viewmodel.Small" }
 	{ event 5004 23 "Viewmodel.Medium" }
 	{ event 5004 30 "Viewmodel.Large" }
