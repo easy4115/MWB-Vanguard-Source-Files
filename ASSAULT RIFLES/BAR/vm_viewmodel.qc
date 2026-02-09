@@ -1100,10 +1100,8 @@ $sequence "draw_first" {
 
 $sequence "semi_on" {
 	"anims\s4_vm_ar_balpha_base_fire_switch_on.smd"
-	{ event 9021 0 "0" }
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 10 "wpn_balpha_plr_fireselect_on" }
-	{ event 9021 17 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1127,10 +1125,8 @@ $sequence "semi_on" {
 
 $sequence "semi_off" {
 	"anims\s4_vm_ar_balpha_base_fire_switch_off.smd"
-	{ event 9021 0 "0" }
 	{ event 5004 10 "wpn_balpha_plr_fireselect_off" }
 	{ event 5004 10 "Viewmodel.Small" }
-	{ event 9021 17 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"

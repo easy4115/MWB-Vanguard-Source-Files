@@ -1024,8 +1024,6 @@ $sequence "idle" {
 
 $sequence "holster" {
 	"anims\s4_vm_ar_emike1_base_putaway.smd"
-	{ event 9011 0 "0" }
-	{ event 9021 0 "0" }
 	{ event 5004 2 "wpn_emike1_plr_base_putaway" }
 	{ event 5004 18 "Viewmodel.Medium" }
 	fadein 0.2
@@ -1078,7 +1076,7 @@ $sequence "draw" {
 
 $sequence "draw_first" {
 	"anims\s4_vm_ar_emike1_base_pullout_first.smd"
-	{ event 5004 0 "wpn_emike1_plr_base_reload_fpo" }
+	{ event 5004 1 "wpn_emike1_plr_base_reload_fpo" }
 	{ event 5004 18 "Viewmodel.Medium" }
 	{ event 5004 28 "Viewmodel.Small" }
 	{ event 5004 31 "Viewmodel.Small" }

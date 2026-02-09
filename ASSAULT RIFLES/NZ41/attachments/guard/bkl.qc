@@ -4,9 +4,10 @@ $scale 0.393703
 
 $modelname "easy/s4/attachments/chotel41/vm_chotel41_guard_00.mdl"
 
-$bodygroup "grip"
+$bodygroup "tag_grip_attach"
 {
 	studio "vm_chotel41_guard_00_LOD0.smd"
+	blank
 }
 
 

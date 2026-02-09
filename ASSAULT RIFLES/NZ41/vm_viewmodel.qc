@@ -281,7 +281,7 @@ $definebone "j_barrel_rot" "tag_rail_attach" -0.306973 -0.000001 -0.004988 0 0 0
 $definebone "j_slide_stop" "tag_sling" 2.519 0 1.677 0 0 -89.999982 0 0 0 0 0 0
 $definebone "j_b_00" "tag_mag_attach" 0.466 0 1.901 -10.000692 0 0 0 0 0 0 0 0
 $definebone "j_bolt" "tag_sling" 13.588539 0.384217 -0.015065 -0.005959 -177.675077 -90.000098 0 0 0 0 0 0
-$definebone "j_charginghandle" "tag_sling" 15.304235 1.435764 -0.734073 -0.004927 -177.675077 -90.000207 0 0 0 0 0 0
+$definebone "j_charginghandle" "tag_sling" 8.092046 0.000000 0.935005 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_firesel" "tag_sling" 16.551285 2.838564 -0.144079 -0.003953 -177.675077 -89.999927 0 0 0 0 0 0
 $definebone "j_action_back" "tag_sling" 16.381144 0.671876 -0.479078 -0.005959 -177.675077 -90.000037 0 0 0 0 0 0
 $definebone "j_bolt_back_pivot" "tag_sling" 14.684082 0.220579 -0.47907 -0.004985 -177.675077 -90.000037 0 0 0 0 0 0
@@ -1106,10 +1106,8 @@ $sequence "draw_first" {
 
 $sequence "semi_on" {
 	"anims\s4_vm_ar_chotel41_base_fire_switch_on.smd"
-	{ event 9021 0 "0" }
 	{ event 5004 10 "wpn_gbl_plr_fireselect_on" }
 	{ event 5004 10 "Viewmodel.Small" }
-	{ event 9021 17 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1133,10 +1131,8 @@ $sequence "semi_on" {
 
 $sequence "semi_off" {
 	"anims\s4_vm_ar_chotel41_base_fire_switch_off.smd"
-	{ event 9021 0 "0" }
 	{ event 5004 10 "wpn_gbl_plr_fireselect_off" }
 	{ event 5004 10 "Viewmodel.Small" }
-	{ event 9021 17 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
