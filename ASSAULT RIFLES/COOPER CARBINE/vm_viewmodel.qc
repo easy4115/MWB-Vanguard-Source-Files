@@ -1176,6 +1176,7 @@ $sequence "reload_empty" {
 	{ event 9021 3 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_empty" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 45 "wpn_hyankee44_plr_reload_magin_empty" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 53 "Viewmodel.Small" }
@@ -1212,6 +1213,7 @@ $sequence "reload" {
 	{ event 9021 5 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_tac" }
 	{ event 5004 14 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 44 "wpn_hyankee44_plr_reload_magin_tac" }
 	{ event 5004 46 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Small" }
@@ -1251,6 +1253,7 @@ $sequence "reload_empty_fmag" {
 	{ event 9021 3 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_empty_fast" }
 	{ event 5004 15 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 34 "wpn_hyankee44_plr_reload_magin_empty_fast" }
 	{ event 5004 35 "Viewmodel.Small" }
 	{ event 5004 47 "Viewmodel.Medium" }
@@ -1287,6 +1290,7 @@ $sequence "reload_fmag" {
 	{ event 9021 5 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_tac_fast" }
 	{ event 5004 14 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 32 "wpn_hyankee44_plr_reload_magin_tac_fast" }
 	{ event 5004 35 "Viewmodel.Small" }
@@ -1326,6 +1330,7 @@ $sequence "reload_empty_extmag" {
 	{ event 9021 3 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_empty_ext" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 44 "wpn_hyankee44_plr_reload_magin_empty_ext" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Small" }
@@ -1363,6 +1368,7 @@ $sequence "reload_extmag" {
 	{ event 9021 5 "0" }
 	{ event 5004 5 "wpn_hyankee44_plr_reload_magout_tac_ext" }
 	{ event 5004 15 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 44 "wpn_hyankee44_plr_reload_magin_tac_ext" }
 	{ event 5004 46 "Viewmodel.Small" }
 	{ event 5004 53 "Viewmodel.Small" }

@@ -1154,6 +1154,7 @@ $sequence "reload_empty" {
 	{ event 5004 1 "wpn_voscar_plr_reload_magout_empty" }
 	{ event 5004 14 "Viewmodel.Small" }
 	{ event 5004 15 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_voscar_plr_reload_magin_empty" }
 	{ event 5004 43 "Viewmodel.Small" }
 	{ event 5004 51 "Viewmodel.Small" }
@@ -1194,6 +1195,7 @@ $sequence "reload" {
 	{ event 5004 1 "wpn_voscar_plr_reload_magout_tac" }
 	{ event 5004 14 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 38 "Viewmodel.Small" }
 	{ event 5004 40 "wpn_voscar_plr_reload_magin_tac" }
 	{ event 5004 44 "Viewmodel.Small" }
@@ -1231,6 +1233,7 @@ $sequence "reload_empty_fmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 4 "wpn_voscar_plr_reload_magout_empty_fast" }
 	{ event 5004 12 "Viewmodel.Small" }
+	{ event 9031 16 "ResetBullets" }
 	{ event 5004 29 "wpn_voscar_plr_reload_magin_empty_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 39 "Viewmodel.Medium" }
@@ -1269,6 +1272,7 @@ $sequence "reload_fmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 1 "wpn_voscar_plr_reload_magout_tac_fast" }
 	{ event 5004 12 "Viewmodel.Small" }
+	{ event 9031 16 "ResetBullets" }
 	{ event 5004 31 "wpn_voscar_plr_reload_magin_tac_fast" }
 	{ event 5004 33 "Viewmodel.Small" }
 	{ event 5004 42 "Viewmodel.Medium" }
@@ -1310,6 +1314,7 @@ $sequence "reload_empty_xxlmag" {
 	{ event 5004 1 "wpn_voscar_plr_reload_magout_empty_ext" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 21 "Viewmodel.Small" }
+	{ event 9031 27 "ResetBullets" }
 	{ event 5004 44 "wpn_voscar_plr_reload_magin_empty_ext" }
 	{ event 5004 53 "Viewmodel.Small" }
 	{ event 5004 62 "Viewmodel.Medium" }
@@ -1348,6 +1353,7 @@ $sequence "reload_xxlmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 0 "wpn_voscar_plr_reload_magout_tac_ext" }
 	{ event 5004 14 "Viewmodel.Small" }
+	{ event 9031 27 "ResetBullets" }
 	{ event 5004 22 "Viewmodel.Small" }
 	{ event 5004 44 "wpn_voscar_plr_reload_magin_tac_ext" }
 	{ event 5004 51 "Viewmodel.Small" }

@@ -1195,6 +1195,7 @@ $sequence "reload" {
 	blendwidth 2
 	{ event 9011 6 "0" }
 	{ event 5004 7 "wpn_balpha_plr_reload_magout_tac" }
+	{ event 9031 20 "ResetBullets" }
 	{ event 5004 23 "Viewmodel.Small" }
 	{ event 5004 48 "wpn_balpha_plr_reload_magin_tac" }
 	{ event 5004 53 "Viewmodel.Small" }
@@ -1270,6 +1271,7 @@ $sequence "reload_fmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 3 "wpn_balpha_plr_reload_magout_tac_fast" }
 	{ event 5004 12 "Viewmodel.Medium" }
+	{ event 9031 20 "ResetBullets" }
 	{ event 5004 26 "wpn_balpha_plr_reload_magin_tac_fast" }
 	{ event 5004 27 "Viewmodel.Small" }
 	{ event 5004 31 "Viewmodel.Small" }
@@ -1345,6 +1347,7 @@ $sequence "reload_extmag" {
 	{ event 9011 6 "0" }
 	{ event 5004 7 "wpn_balpha_plr_reload_magout_tac" }
 	{ event 5004 23 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 48 "wpn_balpha_plr_reload_magin_tac" }
 	{ event 5004 53 "Viewmodel.Small" }
 	{ event 5004 59 "Viewmodel.Medium" }

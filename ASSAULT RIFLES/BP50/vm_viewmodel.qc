@@ -1165,6 +1165,7 @@ $sequence "reload_empty" {
 	{ event 5004 10 "wpn_fnovember2000_plr_reload_fmag_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 33 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 47 "wpn_fnovember2000_plr_reload_magin_empty" }
 	{ event 5004 49 "Viewmodel.Small" }
@@ -1206,6 +1207,7 @@ $sequence "reload" {
 	{ event 5004 9 "wpn_fnovember2000_plr_reload_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 29 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 44 "wpn_fnovember2000_plr_reload_magin" }
 	{ event 5004 46 "Viewmodel.Small" }
@@ -1246,6 +1248,7 @@ $sequence "reload_empty_fmag" {
 	{ event 5004 8 "wpn_fnovember2000_plr_reload_fmag_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 34 "wpn_fnovember2000_plr_reload_fmag_magin" }
 	{ event 5004 36 "Viewmodel.Small" }
 	{ event 5004 42 "Viewmodel.Medium" }
@@ -1285,6 +1288,7 @@ $sequence "reload_fmag" {
 	{ event 5004 8 "wpn_fnovember2000_plr_reload_fmag_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 34 "wpn_fnovember2000_plr_reload_fmag_magin" }
 	{ event 5004 36 "Viewmodel.Small" }
 	{ event 5004 42 "Viewmodel.Medium" }
@@ -1323,6 +1327,7 @@ $sequence "reload_empty_extmag" {
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 14 "wpn_fnovember2000_plr_reload_ext_magout" }
 	{ event 5004 21 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 35 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 58 "Viewmodel.Small" }
 	{ event 5004 59 "wpn_fnovember2000_plr_reload_ext_magin_empty" }
@@ -1364,6 +1369,7 @@ $sequence "reload_extmag" {
 	{ event 5004 15 "wpn_fnovember2000_plr_reload_ext_magout" }
 	{ event 5004 17 "Viewmodel.Small" }
 	{ event 5004 23 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 34 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 58 "wpn_fnovember2000_plr_reload_ext_magin" }
 	{ event 5004 58 "Viewmodel.Small" }
@@ -1403,6 +1409,7 @@ $sequence "reload_empty_xxlmag" {
 	{ event 5004 10 "wpn_fnovember2000_plr_reload_fmag_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 33 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 47 "wpn_fnovember2000_plr_reload_magin_empty" }
 	{ event 5004 49 "Viewmodel.Small" }
@@ -1444,6 +1451,7 @@ $sequence "reload_xxlmag" {
 	{ event 5004 9 "wpn_fnovember2000_plr_reload_magout" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 29 "wpn_fnovember2000_plr_reload_mag_grab" }
 	{ event 5004 44 "wpn_fnovember2000_plr_reload_magin" }
 	{ event 5004 46 "Viewmodel.Small" }

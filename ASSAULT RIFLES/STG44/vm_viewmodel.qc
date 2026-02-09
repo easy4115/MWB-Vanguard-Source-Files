@@ -1143,6 +1143,7 @@ $sequence "reload_empty" {
 	{ event 5004 3 "wpn_stango44_plr_reload_magout_empty_01" }
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 47 "wpn_stango44_plr_reload_magin_empty_01" }
 	{ event 5004 48 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
@@ -1303,6 +1304,7 @@ $sequence "reload_empty_extmag" {
 	{ event 5004 6 "wpn_stango44_plr_reload_magout_empty_ext_01" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 44 "wpn_stango44_plr_reload_magin_empty_ext_01" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 47 "Viewmodel.Small" }
@@ -1347,6 +1349,7 @@ $sequence "reload_extmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 40 "Viewmodel.Small" }
 	{ event 5004 41 "wpn_stango44_plr_reload_magin_tac_ext_01" }
 	{ event 5004 43 "Viewmodel.Small" }
@@ -1427,6 +1430,7 @@ $sequence "reload_empty_grip" {
 	{ event 5004 3 "wpn_stango44_plr_reload_magout_empty_01" }
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 47 "wpn_stango44_plr_reload_magin_empty_01" }
 	{ event 5004 48 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
@@ -1585,6 +1589,7 @@ $sequence "reload_empty_grip_extmag" {
 	{ event 9011 1 "0" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 44 "wpn_stango44_plr_reload_magin_empty_ext_01" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 47 "Viewmodel.Small" }
@@ -1628,6 +1633,7 @@ $sequence "reload_grip_extmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 40 "Viewmodel.Small" }
 	{ event 5004 41 "wpn_stango44_plr_reload_magin_tac_ext_01" }
 	{ event 5004 43 "Viewmodel.Small" }

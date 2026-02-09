@@ -1103,6 +1103,7 @@ $sequence "reload_empty" {
 	{ event 9011 2 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_empty" }
 	{ event 5004 14 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 40 "wpn_promeo45_plr_reload_magin_empty" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 49 "Viewmodel.Medium" }
@@ -1143,6 +1144,7 @@ $sequence "reload" {
 	{ event 9011 1 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_tac" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 37 "wpn_promeo45_plr_reload_magin_tac" }
 	{ event 5004 39 "Viewmodel.Small" }
 	{ event 5004 46 "Viewmodel.Medium" }
@@ -1217,6 +1219,7 @@ $sequence "reload_fmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 4 "wpn_promeo45_plr_reload_magout_tac_fast" }
 	{ event 5004 13 "Viewmodel.Medium" }
+	{ event 9031 20 "ResetBullets" }
 	{ event 5004 29 "wpn_promeo45_plr_reload_magin_tac_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 38 "Viewmodel.Medium" }
@@ -1253,6 +1256,7 @@ $sequence "reload_empty_extmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_empty" }
 	{ event 5004 14 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 40 "wpn_promeo45_plr_reload_magin_empty" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 49 "Viewmodel.Medium" }
@@ -1293,6 +1297,7 @@ $sequence "reload_extmag" {
 	{ event 9011 1 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_tac" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 37 "wpn_promeo45_plr_reload_magin_tac" }
 	{ event 5004 39 "Viewmodel.Small" }
 	{ event 5004 46 "Viewmodel.Medium" }
@@ -1329,6 +1334,7 @@ $sequence "reload_empty_xxlmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_empty_dblext" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 54 "wpn_promeo45_plr_reload_magin_empty_dblext" }
 	{ event 5004 65 "Viewmodel.Medium" }
 	{ event 9011 75 "1" }
@@ -1368,6 +1374,7 @@ $sequence "reload_xxlmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 5 "wpn_promeo45_plr_reload_magout_tac_dblext" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 26 "ResetBullets" }
 	{ event 5004 49 "wpn_promeo45_plr_reload_magin_tac_dblext" }
 	{ event 5004 51 "Viewmodel.Small" }
 	{ event 5004 64 "Viewmodel.Medium" }

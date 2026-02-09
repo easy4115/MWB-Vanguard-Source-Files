@@ -1100,6 +1100,7 @@ $sequence "reload_empty" {
 	{ event 5004 5 "wpn_valpha52_plr_reload_01_a" }
 	{ event 5004 13 "wpn_valpha52_plr_reload_01_b" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_valpha52_plr_reload_02" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1142,6 +1143,7 @@ $sequence "reload" {
 	{ event 9021 5 "0" }
 	{ event 5004 13 "wpn_valpha52_plr_reload_01_b" }
 	{ event 5004 16 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_valpha52_plr_reload_02" }
 	{ event 5004 44 "Viewmodel.Small" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1182,6 +1184,7 @@ $sequence "reload_empty_fmag" {
 	{ event 9021 5 "0" }
 	{ event 5004 5 "wpn_valpha52_plr_reload_fmag_01_b" }
 	{ event 5004 12 "Viewmodel.Medium" }
+	{ event 9031 16 "ResetBullets" }
 	{ event 5004 23 "wpn_valpha52_plr_reload_fmag_02" }
 	{ event 5004 34 "wpn_valpha52_plr_reload_fmag_03" }
 	{ event 5004 35 "Viewmodel.Small" }
@@ -1224,6 +1227,7 @@ $sequence "reload_fmag" {
 	{ event 9021 5 "0" }
 	{ event 5004 5 "wpn_valpha52_plr_reload_fmag_01_b" }
 	{ event 5004 12 "Viewmodel.Medium" }
+	{ event 9031 16 "ResetBullets" }
 	{ event 5004 23 "wpn_valpha52_plr_reload_fmag_02" }
 	{ event 5004 34 "wpn_valpha52_plr_reload_fmag_03" }
 	{ event 5004 34 "Viewmodel.Small" }
@@ -1266,6 +1270,7 @@ $sequence "reload_empty_extmag" {
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 14 "wpn_valpha52_plr_reload_ext_02" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 28 "ResetBullets" }
 	{ event 5004 30 "wpn_valpha52_plr_reload_ext_03_a" }
 	{ event 5004 50 "Viewmodel.Small" }
 	{ event 5004 57 "wpn_valpha52_plr_reload_ext_03_b" }
@@ -1310,6 +1315,7 @@ $sequence "reload_extmag" {
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 14 "wpn_valpha52_plr_reload_ext_02" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 28 "ResetBullets" }
 	{ event 5004 30 "wpn_valpha52_plr_reload_ext_03_a" }
 	{ event 5004 50 "Viewmodel.Small" }
 	{ event 5004 57 "wpn_valpha52_plr_reload_ext_03_b" }

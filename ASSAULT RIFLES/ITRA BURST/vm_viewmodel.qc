@@ -1276,6 +1276,7 @@ $sequence "reload_fmag" {
 	{ event 9011 1 "0" }
 	{ event 5004 2 "wpn_bromeopg_plr_reload_magout_tac_fast" }
 	{ event 5004 14 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 28 "Viewmodel.Small" }
 	{ event 5004 32 "wpn_bromeopg_plr_reload_magin_tac_fast" }
 	{ event 5004 36 "Viewmodel.Small" }
@@ -1361,6 +1362,7 @@ $sequence "reload_xxlmag" {
 	{ event 5004 3 "wpn_bromeopg_plr_reload_magout_tac_dblext" }
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 22 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 54 "wpn_bromeopg_plr_reload_magin_tac_dblext" }
 	{ event 5004 57 "Viewmodel.Small" }
 	{ event 5004 70 "Viewmodel.Medium" }

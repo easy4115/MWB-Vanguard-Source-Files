@@ -1145,6 +1145,7 @@ $sequence "reload" {
 	{ event 9011 9 "0" }
 	{ event 5004 3 "wpn_kgolf40_plr_reload_magout_tac" }
 	{ event 5004 14 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 23 "Viewmodel.Medium" }
 	{ event 5004 50 "wpn_kgolf40_plr_reload_magin_tac" }
 	{ event 5004 54 "Viewmodel.Small" }
@@ -1220,6 +1221,7 @@ $sequence "reload_fmag" {
 	{ event 9011 3 "0" }
 	{ event 5004 5 "wpn_kgolf40_plr_reload_magout_tac_fast" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 20 "ResetBullets" }
 	{ event 5004 32 "wpn_kgolf40_plr_reload_magin_tac_fast" }
 	{ event 5004 35 "Viewmodel.Small" }
 	{ event 5004 38 "Viewmodel.Medium" }
@@ -1297,6 +1299,7 @@ $sequence "reload_extmag" {
 	{ event 5004 6 "wpn_kgolf40_plr_reload_magout_tac_ext" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 27 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 30 "Viewmodel.Medium" }
 	{ event 5004 57 "wpn_kgolf40_plr_reload_magin_tac_ext" }
 	{ event 5004 65 "Viewmodel.Small" }
@@ -1376,6 +1379,7 @@ $sequence "reload_xxlmag" {
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 27 "Viewmodel.Small" }
 	{ event 5004 30 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 57 "wpn_kgolf40_plr_reload_magin_tac_ext" }
 	{ event 5004 65 "Viewmodel.Small" }
 	{ event 5004 74 "Viewmodel.Medium" }

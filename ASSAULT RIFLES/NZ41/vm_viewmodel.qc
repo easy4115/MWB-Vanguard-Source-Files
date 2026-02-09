@@ -1165,6 +1165,7 @@ $sequence "reload_empty" {
 	{ event 9011 4 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 51 "wpn_chotel41_plr_reload_magin_empty" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1204,6 +1205,7 @@ $sequence "reload" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_chotel41_plr_reload_magin_tac" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 51 "Viewmodel.Medium" }
@@ -1241,6 +1243,7 @@ $sequence "reload_empty_fmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 8 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 20 "ResetBullets" }
 	{ event 5004 31 "wpn_chotel41_plr_reload_magin_empty_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 34 "Viewmodel.Medium" }
@@ -1282,6 +1285,7 @@ $sequence "reload_fmag" {
 	{ event 5004 6 "Viewmodel.Small" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 18 "ResetBullets" }
 	{ event 5004 26 "wpn_chotel41_plr_reload_magin_tac_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 33 "Viewmodel.Medium" }
@@ -1320,6 +1324,7 @@ $sequence "reload_empty_extmag" {
 	{ event 9011 1 "0" }
 	{ event 5004 19 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 53 "wpn_chotel41_plr_reload_magin_empty_ext" }
 	{ event 5004 56 "Viewmodel.Small" }
 	{ event 5004 66 "Viewmodel.Medium" }
@@ -1359,6 +1364,7 @@ $sequence "reload_extmag" {
 	{ event 9011 3 "0" }
 	{ event 5004 19 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 51 "Viewmodel.Small" }
 	{ event 5004 52 "wpn_chotel41_plr_reload_magin_tac_ext" }
 	{ event 5004 61 "Viewmodel.Medium" }
@@ -1396,6 +1402,7 @@ $sequence "reload_empty_cmag" {
 	{ event 9011 4 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 51 "wpn_chotel41_plr_reload_magin_empty" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1435,6 +1442,7 @@ $sequence "reload_cmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_chotel41_plr_reload_magin_tac" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 51 "Viewmodel.Medium" }
@@ -1544,6 +1552,7 @@ $sequence "reload_empty_gripstop" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 51 "wpn_chotel41_plr_reload_magin_empty" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1583,6 +1592,7 @@ $sequence "reload_gripstop" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_chotel41_plr_reload_magin_tac" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 51 "Viewmodel.Medium" }
@@ -1620,6 +1630,7 @@ $sequence "reload_empty_gripstop_fmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 8 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Small" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 31 "wpn_chotel41_plr_reload_magin_empty_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 34 "Viewmodel.Medium" }
@@ -1661,6 +1672,7 @@ $sequence "reload_gripstop_fmag" {
 	{ event 5004 6 "Viewmodel.Small" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 15 "Viewmodel.Medium" }
+	{ event 9031 18 "ResetBullets" }
 	{ event 5004 26 "wpn_chotel41_plr_reload_magin_tac_fast" }
 	{ event 5004 31 "Viewmodel.Small" }
 	{ event 5004 33 "Viewmodel.Medium" }
@@ -1699,6 +1711,7 @@ $sequence "reload_empty_gripstop_extmag" {
 	{ event 9011 1 "0" }
 	{ event 5004 19 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 53 "wpn_chotel41_plr_reload_magin_empty_ext" }
 	{ event 5004 56 "Viewmodel.Small" }
 	{ event 5004 66 "Viewmodel.Medium" }
@@ -1738,6 +1751,7 @@ $sequence "reload_gripstop_extmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 19 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 51 "Viewmodel.Small" }
 	{ event 5004 52 "wpn_chotel41_plr_reload_magin_tac_ext" }
 	{ event 5004 61 "Viewmodel.Medium" }
@@ -1775,6 +1789,7 @@ $sequence "reload_empty_gripstop_cmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 20 "Viewmodel.Medium" }
+	{ event 9031 28 "ResetBullets" }
 	{ event 5004 47 "Viewmodel.Small" }
 	{ event 5004 51 "wpn_chotel41_plr_reload_magin_empty" }
 	{ event 5004 56 "Viewmodel.Medium" }
@@ -1814,6 +1829,7 @@ $sequence "reload_gripstop_cmag" {
 	{ event 9011 2 "0" }
 	{ event 5004 18 "Viewmodel.Small" }
 	{ event 5004 19 "Viewmodel.Medium" }
+	{ event 9031 25 "ResetBullets" }
 	{ event 5004 42 "wpn_chotel41_plr_reload_magin_tac" }
 	{ event 5004 45 "Viewmodel.Small" }
 	{ event 5004 51 "Viewmodel.Medium" }

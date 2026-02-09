@@ -1182,6 +1182,7 @@ $sequence "reload_empty" {
 	{ event 9021 8 "0" }
 	{ event 5004 22 "Viewmodel.Small" }
 	{ event 5004 23 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 45 "wpn_fecho_plr_reload_magin_empty" }
 	{ event 5004 52 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
@@ -1221,6 +1222,7 @@ $sequence "reload" {
 	{ event 5004 1 "wpn_fecho_plr_reload_magout_tac" }
 	{ event 9021 7 "0" }
 	{ event 5004 20 "Viewmodel.Small" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 21 "Viewmodel.Medium" }
 	{ event 5004 39 "wpn_fecho_plr_reload_magin_tac" }
 	{ event 5004 46 "Viewmodel.Small" }
@@ -1261,6 +1263,7 @@ $sequence "reload_empty_fmag" {
 	{ event 9021 8 "0" }
 	{ event 5004 22 "Viewmodel.Small" }
 	{ event 5004 23 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 45 "wpn_fecho_plr_reload_magin_empty" }
 	{ event 5004 52 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
@@ -1301,6 +1304,7 @@ $sequence "reload_fmag" {
 	{ event 9021 7 "0" }
 	{ event 5004 20 "Viewmodel.Small" }
 	{ event 5004 21 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 39 "wpn_fecho_plr_reload_magin_tac" }
 	{ event 5004 46 "Viewmodel.Small" }
 	{ event 5004 47 "Viewmodel.Large" }
@@ -1340,6 +1344,7 @@ $sequence "reload_empty_extmag" {
 	{ event 9021 8 "0" }
 	{ event 5004 22 "Viewmodel.Small" }
 	{ event 5004 23 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 45 "wpn_fecho_plr_reload_magin_empty" }
 	{ event 5004 52 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
@@ -1380,6 +1385,7 @@ $sequence "reload_extmag" {
 	{ event 9021 7 "0" }
 	{ event 5004 20 "Viewmodel.Small" }
 	{ event 5004 21 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 39 "wpn_fecho_plr_reload_magin_tac" }
 	{ event 5004 46 "Viewmodel.Small" }
 	{ event 5004 47 "Viewmodel.Large" }
@@ -1417,6 +1423,7 @@ $sequence "reload_empty_xxlmag" {
 	{ event 9011 0 "0" }
 	{ event 5004 15 "wpn_fecho_plr_reload_magout_empty_dblext" }
 	{ event 5004 23 "Viewmodel.Small" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 48 "wpn_fecho_plr_reload_magin_empty_dblext" }
 	{ event 5004 56 "Viewmodel.Small" }
 	{ event 5004 57 "Viewmodel.Medium" }
@@ -1460,6 +1467,7 @@ $sequence "reload_xxlmag" {
 	{ event 5004 16 "wpn_fecho_plr_reload_magout_tac_dblext" }
 	{ event 5004 21 "Viewmodel.Small" }
 	{ event 5004 22 "Viewmodel.Medium" }
+	{ event 9031 30 "ResetBullets" }
 	{ event 5004 43 "wpn_fecho_plr_reload_magin_tac_dblext" }
 	{ event 5004 53 "Viewmodel.Small" }
 	{ event 5004 54 "Viewmodel.Medium" }
