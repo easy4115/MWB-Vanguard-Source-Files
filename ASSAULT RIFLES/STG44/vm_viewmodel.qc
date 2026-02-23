@@ -1549,6 +1549,7 @@ $sequence "reload_grip_fmag" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9011 1 "0" }
+	{ event 5004 6 "wpn_stango44_plr_reload_magout_empty_fast" }
 	{ event 5004 13 "Viewmodel.Medium" }
 	{ event 5004 25 "Viewmodel.Medium" }
 	{ event 5004 32 "wpn_stango44_plr_reload_magin_tac_fast" }
@@ -1587,6 +1588,7 @@ $sequence "reload_empty_grip_extmag" {
 	blendwidth 2
 	{ event 9021 0 "0" }
 	{ event 9011 1 "0" }
+	{ event 5004 1 "wpn_stango44_plr_reload_magout_tac_ext_01" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 17 "Viewmodel.Medium" }
 	{ event 9031 25 "ResetBullets" }

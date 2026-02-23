@@ -1447,7 +1447,7 @@ $sequence "stock_semi_off" {
 //INSPECT
 
 $sequence "inspect_stock" {
-	"anims\s4_vm_ar_bromeo35_gripstock_inspect.smd"
+	"anims\s4_vm_ar_bromeo35_gripstock_inspect_test.smd"
 	{ event 9011 5 "0" }
 	{ event 9021 7 "0" }
 	{ event 5004 3 "wpn_gbl_plr_inspect_settle" }
@@ -2250,6 +2250,7 @@ $sequence "super_sprint_offset" {
 	fadein 0.2
 	fadeout 0.2
 	realtime
+	
 }
 
 $keyvalues
