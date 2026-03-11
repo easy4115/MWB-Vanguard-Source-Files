@@ -9,7 +9,12 @@ $bodygroup "rec"
 	studio "vm_mike97_receiver_00_LOD0.smd"
 	blank
 }
-
+$bodygroup "tag_rail"
+{
+	blank
+	studio "rail.smd"
+	studio "rail.smd"
+}
 
 $surfaceprop "weapon"
 
@@ -1116,6 +1121,7 @@ $sequence "reload_start" {
 	addlayer "grip_heavy_offset"
 	addlayer "grip_stock_offset"
 	addlayer "grip_stop_offset"
+	addlayer "empty_offset"
 	snap
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri"  target 0 usesource 
@@ -1143,6 +1149,7 @@ $sequence "reload_loop" {
 	addlayer "aim_offset"
 	addlayer "firemode_offset"
 	addlayer "grip_stock_offset"
+	addlayer "empty_offset"
 	snap
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri"  target 0 usesource 
@@ -1174,6 +1181,7 @@ $sequence "reload_end" {
 	addlayer "grip_heavy_offset"
 	addlayer "grip_stock_offset"
 	addlayer "grip_stop_offset"
+	addlayer "empty_offset"
 	snap
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri"  target 0 usesource 
@@ -1243,6 +1251,7 @@ $sequence "reload_end_empty" {
 	"anims\s4_vm_sh_mike97_base_ads_reload_end_rechamber.smd"
 	blend "aim_offset" 0 1
 	blendwidth 2
+	{ event 9011 0 "0" }
 	{ event 5004 4 "wpn_mike97_plr_reload_empty_rechamber" }
 	{ event 5004 10 "Viewmodel.Small" }
 	{ event 5004 11 "Viewmodel.Large" }
@@ -1250,6 +1259,8 @@ $sequence "reload_end_empty" {
 	{ event 5004 18 "Viewmodel.Medium" }
 	{ event 9011 23 "1" }
 	{ event 5004 34 "Viewmodel.Small" }
+	{ event 6001 11 "shell_eject" }
+	{ event 9001 11 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1293,6 +1304,8 @@ $sequence "reload_empty_fmag" {
 	{ event 9011 59 "1" }
 	{ event 5004 59 "Viewmodel.Medium" }
 	{ event 5004 72 "Viewmodel.Small" }
+	{ event 6001 9 "shell_eject" }
+	{ event 9001 9 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1371,6 +1384,8 @@ $sequence "reload_empty_extmag" {
 	{ event 5004 78 "Viewmodel.Medium" }
 	{ event 9021 80 "1" }
 	{ event 5004 89 "Viewmodel.Small" }
+	{ event 6001 71 "shell_eject" }
+	{ event 9001 71 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1649,6 +1664,8 @@ $sequence "reload_end_empty_grip" {
 	{ event 5004 17 "Viewmodel.Small" }
 	{ event 5004 18 "Viewmodel.Medium" }
 	{ event 5004 34 "Viewmodel.Small" }
+	{ event 6001 11 "shell_eject" }
+	{ event 9001 11 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1692,6 +1709,8 @@ $sequence "reload_empty_fmag_grip" {
 	{ event 5004 58 "Viewmodel.Small" }
 	{ event 5004 59 "Viewmodel.Medium" }
 	{ event 5004 72 "Viewmodel.Small" }
+	{ event 6001 9 "shell_eject" }
+	{ event 9001 9 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1770,6 +1789,8 @@ $sequence "reload_empty_extmag_grip" {
 	{ event 5004 78 "Viewmodel.Medium" }
 	{ event 9021 80 "1" }
 	{ event 5004 89 "Viewmodel.Small" }
+	{ event 6001 71 "shell_eject" }
+	{ event 9001 71 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1903,6 +1924,8 @@ $sequence "rechamber" {
 	{ event 5004 2 "Viewmodel.Large" }
 	{ event 5004 7 "Viewmodel.Small" }
 	{ event 5004 9 "Viewmodel.Medium" }
+	{ event 6001 1 "shell_eject" }
+	{ event 9001 1 "Ejection shell_eject" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"

@@ -9,6 +9,12 @@ $bodygroup "rec"
 	studio "vm_mike97_receiver_00_LOD0.smd"
 	blank
 }
+$bodygroup "tag_rail"
+{
+	blank
+	studio "rail.smd"
+	studio "rail.smd"
+}
 
 $surfaceprop "weapon"
 
