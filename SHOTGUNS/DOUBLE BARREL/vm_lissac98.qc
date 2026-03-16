@@ -991,8 +991,8 @@ $animation "idle22frames" "anims\s4_vm_sh_lindia98_base_idle.smd" {
 
 $sequence "idle" {
 	"anims\s4_vm_sh_lindia98_base_idle.smd"
-//	{ event 9011 0 "1" }
-//	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1043,9 +1043,9 @@ $sequence "holster" {
 
 $sequence "draw" {
 	"anims\s4_vm_sh_lindia98_base_pullout.smd"
-//	{ event 9011 0 "0" }
+	{ event 9011 0 "0" }
 	{ event 5004 2 "wfoly_plr_sh_lindia98_raise_01" }
-//	{ event 9011 7 "1" }
+	{ event 9011 7 "1" }
 	{ event 5004 20 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1108,7 +1108,7 @@ $sequence "reload_empty" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9021 0 "0" }
-//	{ event 9011 3 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 3 "wpn_lindia98_plr_reload_open_empty" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 24 "wpn_lindia98_plr_reload_shellsout_empty" }
@@ -1124,7 +1124,7 @@ $sequence "reload_empty" {
 	{ event 5004 67 "Viewmodel.Small" }
 	{ event 5004 68 "Viewmodel.Small" }
 	{ event 5004 69 "Viewmodel.Medium" }
-//	{ event 9011 79 "1" }
+	{ event 9011 79 "1" }
 	{ event 5004 84 "wpn_lindia98_plr_reload_close_empty" }
 	{ event 5004 88 "Viewmodel.Small" }
 	{ event 5004 89 "Viewmodel.Large" }
@@ -1156,7 +1156,7 @@ $sequence "reload" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9021 0 "0" }
-//	{ event 9011 5 "0" }
+	{ event 9011 5 "0" }
 	{ event 5004 5 "wpn_lindia98_plr_reload_open_tac" }
 	{ event 5004 7 "Viewmodel.Small" }
 	{ event 5004 22 "Viewmodel.Small" }
@@ -1168,7 +1168,7 @@ $sequence "reload" {
 	{ event 5004 54 "Viewmodel.Small" }
 	{ event 5004 55 "Viewmodel.Small" }
 	{ event 5004 56 "Viewmodel.Medium" }
-//	{ event 9011 67 "1" }
+	{ event 9011 67 "1" }
 	{ event 5004 72 "wpn_lindia98_plr_reload_close_tac" }
 	{ event 5004 74 "Viewmodel.Small" }
 	{ event 5004 75 "Viewmodel.Large" }
@@ -1244,7 +1244,7 @@ $sequence "reload_empty_gripstock" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9021 0 "0" }
-//	{ event 9011 3 "0" }
+	{ event 9011 3 "0" }
 	{ event 5004 3 "wpn_lindia98_plr_reload_open_empty" }
 	{ event 5004 12 "Viewmodel.Small" }
 	{ event 5004 24 "wpn_lindia98_plr_reload_shellsout_empty" }
@@ -1261,7 +1261,7 @@ $sequence "reload_empty_gripstock" {
 	{ event 5004 67 "Viewmodel.Small" }
 	{ event 5004 68 "Viewmodel.Small" }
 	{ event 5004 69 "Viewmodel.Medium" }
-//	{ event 9011 79 "1" }
+	{ event 9011 79 "1" }
 	{ event 5004 84 "wpn_lindia98_plr_reload_close_empty" }
 	{ event 5004 88 "Viewmodel.Small" }
 	{ event 5004 89 "Viewmodel.Large" }
@@ -1291,7 +1291,7 @@ $sequence "reload_gripstock" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9021 1 "0" }
-//	{ event 9011 5 "0" }
+	{ event 9011 5 "0" }
 	{ event 5004 5 "wpn_lindia98_plr_reload_open_tac" }
 	{ event 5004 7 "Viewmodel.Small" }
 	{ event 5004 22 "Viewmodel.Small" }
@@ -1304,7 +1304,7 @@ $sequence "reload_gripstock" {
 	{ event 5004 54 "Viewmodel.Small" }
 	{ event 5004 55 "Viewmodel.Small" }
 	{ event 5004 56 "Viewmodel.Medium" }
-//	{ event 9011 67 "1" }
+	{ event 9011 67 "1" }
 	{ event 5004 72 "wpn_lindia98_plr_reload_close_tac" }
 	{ event 5004 74 "Viewmodel.Small" }
 	{ event 5004 75 "Viewmodel.Large" }
@@ -1348,8 +1348,8 @@ $sequence "fire" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9001 1 "MuzzleFlash muzzle" }
-//	{ event 9011 0 "1" }
-//	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1378,8 +1378,8 @@ $sequence "fire_last" {
 	blend "aim_offset" 0 1
 	blendwidth 2
 	{ event 9001 1 "MuzzleFlash muzzle" }
-//	{ event 9011 0 "1" }
-//	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1405,7 +1405,7 @@ $sequence "fire_last" {
 $sequence "inspect" {
 	"anims\s4_vm_sh_lindia98_base_inspect.smd"
 	{ event 5004 1 "wpn_gbl_plr_inspect_mvmnt_med" }
-//	{ event 9011 6 "0" }
+	{ event 9011 6 "0" }
 	{ event 5004 16 "Viewmodel.Medium" }
 	{ event 5004 19 "Viewmodel.Medium" }
 	{ event 5004 53 "wpn_gbl_plr_inspect_mvmnt_sml" }
@@ -1413,7 +1413,7 @@ $sequence "inspect" {
 	{ event 5004 66 "Viewmodel.Large" }
 	{ event 5004 68 "wpn_gbl_plr_inspect_settle" }
 	{ event 5004 144 "wpn_gbl_plr_inspect_mvmnt_sml" }
-//	{ event 9011 157 "1" }
+	{ event 9011 157 "1" }
 	{ event 5004 160 "wpn_gbl_plr_inspect_settle" }
 	{ event 5004 160 "Viewmodel.Small" }
 	{ event 5004 169 "Viewmodel.Medium" }
@@ -1440,13 +1440,13 @@ $sequence "inspect" {
 
 $sequence "melee_miss_01" {
 	"anims\s4_vm_sh_lindia98_base_gun_butt_miss_01.smd"
-//	{ event 9011 0 "0" }
+	{ event 9011 0 "0" }
 	{ event 9021 0 "0" }
 	{ event 5004 0 "s4_melee_attack_rifle_miss" }
 	{ event 5004 7 "Viewmodel.Large" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 9021 26 "1" }
-//	{ event 9011 26 "1" }
+	{ event 9011 26 "1" }
 	{ event 5004 31 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1470,14 +1470,14 @@ $sequence "melee_miss_01" {
 
 $sequence "melee_hit_01" {
 	"anims\s4_vm_sh_lindia98_base_gun_butt_hit_01.smd"
-//	{ event 9011 0 "0" }
+	{ event 9011 0 "0" }
 	{ event 9021 0 "0" }
 	{ event 5004 7 "Viewmodel.Large" }
 	{ event 5004 0 "s4_melee_attack_rifle_miss" }
 	{ event 5004 2 "s4_melee_attack_hit" }
 	{ event 5004 8 "Viewmodel.Medium" }
 	{ event 9021 26 "1" }
-//	{ event 9011 26 "1" }
+	{ event 9011 26 "1" }
 	{ event 5004 31 "Viewmodel.Small" }
 	fadein 0.2
 	fadeout 0.2
@@ -1504,8 +1504,8 @@ $sequence "melee_hit_01" {
 $sequence "ads_in" {
 	"anims\ads_up.smd"
 	{ event 5004 3 "wpn_lindia98_plr_aim_mvmnt_up" }
-//	{ event 9011 0 "1" }
-//	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
@@ -1529,8 +1529,8 @@ $sequence "ads_in" {
 $sequence "ads_out" {
 	"anims\ads_down.smd"
 	{ event 5004 3 "wpn_lindia98_plr_aim_mvmnt_down" }
-//	{ event 9011 0 "1" }
-//	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
+	{ event 9011 0 "1" }
 	fadein 0.2
 	fadeout 0.2
 	addlayer "jog_loop"
