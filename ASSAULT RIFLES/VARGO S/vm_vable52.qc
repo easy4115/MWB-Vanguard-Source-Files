@@ -1778,12 +1778,9 @@ $sequence "sprint_out" {
 	"anims\s4_vm_ar_stango44_base_sprint_to_walk.smd"
 	fadein 0.2
 	fadeout 0.2
-	addlayer "a_sprint_to_walk"
 	addlayer "jog_loop"
 	addlayer "jog_offset"
 	addlayer "walk_loop"
-	addlayer "sprint_loop"
-	addlayer "sprint_offset"
 	addlayer "freefall_loop"
 	addlayer "firemode_offset"
 	addlayer "grip_ang_offset"
