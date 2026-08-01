@@ -282,6 +282,7 @@ $definebone "j_stock_pivot_00" "tag_stock_attach" 0.000000 0.000000 0.000000 -0.
 $definebone "j_stock_release_00" "tag_stock_attach" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "j_trigger" "tag_stock_attach" 3.202017 -0.280002 0.000000 -0.000000 0.000000 -179.999985 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 $definebone "tag_guard_attach" "tag_sling" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_firesel" "tag_stock_attach" 0.727004 0.623003 -0.739004 0 0 -89.997284 0 0 0 0 0 0
 
 $bonemerge "tag_origin"
 $bonemerge "tag_view"
@@ -512,6 +513,7 @@ $bonemerge "j_stock_pivot_00"
 $bonemerge "j_stock_release_00"
 $bonemerge "j_trigger"
 $bonemerge "tag_guard_attach"
+$bonemerge "j_firesel"
 
 $sectionframes 30 39
 
@@ -1090,6 +1092,60 @@ $sequence "draw_first" {
 	fps 30
 	ikrule "rhand" touch "tag_ik_loc_ri"  target 0 usesource 
 	ikrule "lhand" touch "tag_ik_loc_le"  target 1 usesource 
+}
+
+$sequence "semi_on" {
+	"anims\s4_vm_sm_owhiskey_base_fire_switch_on.smd"
+	{ event 9021 0 "0" }
+	{ event 5004 10 "wpn_gbl_plr_fireselect_on" }
+	{ event 5004 10 "Viewmodel.Small" }
+	{ event 9021 15 "1" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "aim_offset"
+	addlayer "grip_ang_offset"
+	addlayer "grip_vert_offset"
+	addlayer "empty_offset"
+	addlayer "grip_stop_offset"
+	addlayer "grip_mag_offset"
+	addlayer "grip_heavy_offset"
+	snap
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0 usesequence 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1 usesequence 
+}
+
+$sequence "semi_off" {
+	"anims\s4_vm_sm_owhiskey_base_fire_switch_off.smd"
+	{ event 9021 0 "0" }
+	{ event 5004 10 "wpn_gbl_plr_fireselect_off" }
+	{ event 5004 10 "Viewmodel.Small" }
+	{ event 9021 14 "1" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "jog_loop"
+	addlayer "jog_offset"
+	addlayer "walk_loop"
+	addlayer "sprint_loop"
+	addlayer "sprint_offset"
+	addlayer "freefall_loop"
+	addlayer "aim_offset"
+	addlayer "grip_ang_offset"
+	addlayer "grip_vert_offset"
+	addlayer "empty_offset"
+	addlayer "grip_stop_offset"
+	addlayer "grip_mag_offset"
+	addlayer "grip_heavy_offset"
+	snap
+	fps 30
+	ikrule "rhand" touch "tag_ik_loc_ri" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0 usesequence 
+	ikrule "lhand" touch "tag_ik_loc_le" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1 usesequence 
 }
 
 // BASE RELOADS

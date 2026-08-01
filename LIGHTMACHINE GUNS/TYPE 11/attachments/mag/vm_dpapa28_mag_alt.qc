@@ -1,0 +1,292 @@
+// Created by Crowbar 0.71
+
+$modelname "easy/s4/attachments/tyankee11/vm_tyankee11_mag_00.mdl"
+
+//$maxverts 999999
+$scale 0.393703
+
+$bodygroup "mag"
+{
+	studio "vm_tyankee11_mag_00_LOD0.smd"
+}
+
+$definebone "tag_mag_attach" "" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_mag1" "tag_mag_attach" -1.367007 2.121011 -1.726009 -0.000000 89.999992 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_stripper_00" "j_mag1" -0.162932 1.536952 1.271007 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_00" "j_stripper_00" -0.829010 -0.146967 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_01" "j_stripper_00" -0.407008 -0.146984 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_02" "j_stripper_00" -0.000006 -0.147001 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_03" "j_stripper_00" 0.405996 -0.147017 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_04" "j_stripper_00" 0.822998 -0.147035 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_stripper_01" "j_mag1" -0.162932 1.536952 1.718009 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_05" "j_stripper_01" -0.829010 -0.146967 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_06" "j_stripper_01" -0.407008 -0.146984 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_07" "j_stripper_01" -0.000006 -0.147001 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_08" "j_stripper_01" 0.405996 -0.147017 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_09" "j_stripper_01" 0.822998 -0.147035 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_stripper_02" "j_mag1" -0.126940 1.345958 2.129012 -0.000286 -0.000057 7.672649 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000001
+$definebone "j_b_10" "j_stripper_02" -0.865003 0.048982 0.033767 0.000286 -0.000057 -7.672537 0.000000 0.000000 -0.000000 -0.000000 0.000000 -0.000001
+$definebone "j_b_11" "j_stripper_02" -0.443000 0.048965 0.033767 0.000286 -0.000057 -7.672767 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_12" "j_stripper_02" -0.035998 0.048949 0.033767 0.000286 -0.000057 -7.672767 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_13" "j_stripper_02" 0.370004 0.048932 0.033767 0.000286 -0.000057 -7.672708 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000001
+$definebone "j_b_14" "j_stripper_02" 0.787006 0.048915 0.033767 0.000286 -0.000057 -7.672537 0.000000 0.000000 -0.000000 -0.000000 0.000000 -0.000001
+$definebone "j_stripper_03" "j_mag1" -0.126947 1.197963 2.561014 -0.000458 -0.000115 11.597123 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_15" "j_stripper_03" -0.799006 -0.053721 -0.003260 0.000458 -0.000115 -11.597123 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
+$definebone "j_b_16" "j_stripper_03" -0.397003 -0.024123 -0.003213 0.000458 -0.000115 -11.597123 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
+$definebone "j_b_17" "j_stripper_03" -0.001000 -0.014920 -0.003063 0.000458 0.000000 -11.597123 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
+$definebone "j_b_18" "j_stripper_03" 0.396001 -0.024155 -0.003213 0.000458 -0.000115 -11.597123 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
+$definebone "j_b_19" "j_stripper_03" 0.798002 -0.053785 -0.003260 0.000458 -0.000115 -11.597123 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000
+$definebone "j_stripper_04" "j_mag1" -0.126953 1.034968 2.989017 -0.000630 -0.000172 15.828304 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000003
+$definebone "j_b_20" "j_stripper_04" -0.799007 -0.063838 -0.001640 0.000573 -0.000172 -15.828414 0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000002
+$definebone "j_b_21" "j_stripper_04" -0.397004 -0.033771 -0.001854 0.000573 -0.000172 -15.828301 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_22" "j_stripper_04" -0.001001 -0.025272 -0.001150 0.000630 0.000000 -15.828301 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_23" "j_stripper_04" 0.396001 -0.033803 -0.001854 0.000573 -0.000172 -15.828301 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_24" "j_stripper_04" 0.798001 -0.063901 -0.001640 0.000573 -0.000172 -15.828245 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_stripper_05" "j_mag1" -0.126962 0.827976 3.395018 -0.000745 -0.000286 20.287464 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone "j_b_25" "j_stripper_05" -0.808007 -0.061629 0.020665 0.000688 -0.000286 -20.287521 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_26" "j_stripper_05" -0.406003 -0.031670 0.018112 0.000688 -0.000286 -20.287521 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_27" "j_stripper_05" -0.009001 -0.023488 0.017213 0.000802 0.000000 -20.287464 0.000000 0.000000 -0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_28" "j_stripper_05" 0.387001 -0.031700 0.018111 0.000688 -0.000286 -20.287464 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_b_29" "j_stripper_05" 0.789002 -0.061690 0.020665 0.000688 -0.000286 -20.287464 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone "j_hopper_lid" "j_mag1" -0.138109 -2.781896 1.268007 -0.010943 -89.993622 89.999992 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$mostlyopaque
+
+$cdmaterials "easy\vg\weapons\tyankee11\"
+$cdmaterials "easy\vg\attachments\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -2.631 -0.554 -5.726 0.841 0.548 1.99
+
+$poseparameter "bullets_offset" 1 30 loop 0
+
+
+$animation "bullets_idle_to_sub_corrective_animation" "vm_tyankee11_mag_00_LOD0.smd" {
+	fps 30
+	frames 0 0
+}
+
+$animation "a_delta_bullets_additive_for_offset_corrective_animation" "vm_tyankee11_mag_00_LOD0.smd" {
+	fps 30
+	frames 0 0
+}
+
+$animation "bullets_idle_to_sub" "vm_tyankee11_mag_00_LOD0.smd" {
+	fps 30
+	frames 0 0
+}
+
+$animation "a_bullets_idle_to_sub" "vm_tyankee11_mag_00_LOD0.smd" {
+	fps 30
+	frames 0 0
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "bullets_idle_to_sub_corrective_animation" 0
+}
+
+$animation "b0" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 0 0
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b1" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 1 1
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b2" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 2 2
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b3" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 3 3
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b4" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 4 4
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b5" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 5 5
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b6" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 6 6
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b7" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 7 7
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b8" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 8 8
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b9" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 9 9
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b10" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 10 10
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b11" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 11 11
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b12" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 12 12
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b13" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 13 13
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b14" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 14 14
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b15" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 15 15
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b16" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 16 16
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b17" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 17 17
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b18" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 18 18
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b19" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 19 19
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b20" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 20 20
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b21" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 21 21
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b22" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 22 22
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b23" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 23 23
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b24" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 24 24
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b25" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 25 25
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b26" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 26 26
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b27" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 27 27
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b28" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 28 28
+	subtract "bullets_idle_to_sub" 0
+}
+$animation "b29" "anims/s4_vm_lm_tyankee11_base_bullets.smd" {
+	fps 30
+	frames 29 29
+	subtract "bullets_idle_to_sub" 0
+}
+
+$sequence "reference" {
+"b0"
+"b1"
+"b2"
+"b3"
+"b4"
+"b5"
+"b6"
+"b7"
+"b8"
+"b9"
+"b10"
+"b11"
+"b12"
+"b13"
+"b14"
+"b15"
+"b16"
+"b17"
+"b18"
+"b19"
+"b20"
+"b21"
+"b22"
+"b23"
+"b24"
+"b25"
+"b26"
+"b27"
+"b28"
+"b29"
+	blend "bullets_offset" 1 30
+	blendwidth 30
+	delta
+	fadein 0.2
+	fadeout 0.2
+	realtime
+}
+
+
+
+$keyvalues
+{
+// CSGO compiler adds the qc_path keyvalue section automatically.
+//	qc_path 
+//	{
+//		"value" "c:\github\source files mw\source-files-mw\attachments\assault rifles\mike4\attachment_mag.qc"
+//	}
+}
