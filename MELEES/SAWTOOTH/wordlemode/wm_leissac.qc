@@ -12,7 +12,7 @@ $bodygroup "receiver"
 	blank
 }
 
-$surfaceprop "weapon"
+$surfaceprop "wood"
 
 $contents "solid"
 
